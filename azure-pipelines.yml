@@ -1,12 +1,11 @@
+trigger: none
 
-trigger:
-- main
-
-pool:Running agent
-
+pool:
+  name: Running agent
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+
 
 
